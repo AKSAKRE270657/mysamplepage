@@ -1,0 +1,149 @@
+body{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.NAV-BAR{
+position: fixed;
+border: 1px solid greenyellow;
+height:100px;
+width: 100%;
+background-color: white;
+top: 0px;;
+z-index: 2;
+}
+.NAV-BAR ul {
+position: absolute;
+width: 100%;
+left: 300px;
+display: inline-block;
+}
+
+.NAV-BAR ul li{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+display: inline;
+padding: 10px 10px;
+}
+
+input[type=button]{
+color: white;
+padding:10px 10px ;
+background-color: rgb(35, 190, 252);
+border-radius: 5px;
+outline: none;
+font-size: 15px;
+border: none;
+max-width:300px;
+}
+
+.main section{
+text-align: center;
+    padding-top: 300px;
+color: whitesmoke;
+
+}
+
+.center-main{
+text-align: center;
+}
+.c1{ 
+margin-top: 30px;;
+width:100%;
+text-align: left;
+}
+.bottom-content{
+background-color:lightgrey;
+text-align: center;
+height: 600px;
+padding:50px;
+}
+.bottom-content div{
+display: grid;
+width:80%;
+margin: 0 10%;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 50px;
+}
+.post{
+display: grid;
+text-align: center;
+grid-template-columns: 1fr 1fr;
+}
+
+.post p{
+text-align: left;
+line-height: 30px;
+word-spacing: 10px;
+margin-right: 30px;
+}
+
+.post-1{
+padding-top: 100px;
+height: 400px;
+border: 1px yellow solid;
+text-align: center;
+background-color:rgb(211, 211, 19);
+line-height: 30px;
+font-size: 20px;
+
+}
+.head{
+text-align: center;
+}
+.post-2{
+display: grid;
+grid-template-columns: repeat(4 ,1fr);
+column-gap: normal;
+margin-inline-start: 50px;}
+
+.post-2 div a{
+
+display: block;
+text-decoration: none;
+font-size: 20px;
+color: rgb(34, 31, 31);
+width:80%;
+
+}
+
+.post-3{
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    text-align:center;
+    padding: 50px;
+}
+
+.footer-info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgba(48, 39, 39, 0.534);
+    padding-inline-start: 100px;
+    color: cornsilk;
+    float: right;
+}
+.footer-info h4{
+    color: cornflowerblue;
+}
+
+.footer-info li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-info a{
+    color: white;
+}
+.post-4{
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+.footer-info section{
+    margin-top: 60px;
+    width:80%;
+}
